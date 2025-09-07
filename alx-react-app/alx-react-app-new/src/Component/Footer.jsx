@@ -1,17 +1,17 @@
 function Footer() {
   return (
     <footer style={{
-      backgroundColor: 'navy',
-      color: 'white',
+      backgroundColor: '#333',
+      color: '#fff',
       textAlign: 'center',
-      padding: '10px',
-      position: 'fixed',
+      padding: '15px 0',
+      position: 'relative',
       bottom: 0,
       width: '100%',
-      fontSize: '0.9em',
-      fontWeight: 'bold',
+      marginTop: '20px'
     }}>
-      &copy; 2025 My Favorite Cities. All rights reserved.
+      <p style={{ margin: 0 }}>© 2025 My Company. All rights reserved.</p>
+      <p style={{ fontSize: '12px', margin: '5px 0 0 0' }}>Follow us on social media for updates!</p>
     </footer>
   );
 }
