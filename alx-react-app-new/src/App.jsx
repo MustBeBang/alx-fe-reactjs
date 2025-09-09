@@ -13,13 +13,13 @@ function App() {
 
   return (
     <div style={{ fontFamily: 'Arial, sans-serif' }}>
-      {/* ✅ Your custom styled components */}
+      {/* Your custom styled components */}
       <Header />
       <UserProfile name="Thabang Makau" age={25} bio="Loves music production and photography." />
       <MainContent />
       <Footer />
 
-      {/* ✅ Vite + React demo content */}
+      {/* Vite + React demo content */}
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -43,7 +43,7 @@ function App() {
         </p>
       </div>
 
-      {/* ✅ Extra Counter App */}
+      {/* Extra Counter App */}
       <div style={{ marginTop: '30px' }}>
         <h1 style={{ textAlign: 'center' }}>Simple Counter App</h1>
         <Counter />
